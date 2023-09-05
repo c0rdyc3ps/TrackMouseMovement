@@ -4,3 +4,4 @@ Small PoC program to detect user interaction via mouse cursor movement on the sc
 ## Prior to Compiling
 - Change number of tracked mouse movements and length of timer to desired values
 - Replace `Process.Start("calc.exe");` with legitimate payload logic
+- Comment out or remove any `Console.WriteLine();` code
